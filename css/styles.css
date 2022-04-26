@@ -211,48 +211,16 @@ ul {
     margin-right: 0;
 }
 
-.antena {
-    background-color: #F5F4FA;
+.list-svg {
     width: 270px;
     height: 120px;
-    margin-bottom: 30px;
-    background-image: url(../img/icons.svg/antenna.svg);
-    background-repeat: no-repeat;
-    background-size: 70px 70px;
-    background-position: center;
+    background-color: var(--primary-background-color);
 }
 
-.clock {
-    background-color: #F5F4FA;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    background-image: url(../img/icons.svg/clock.svg);
-    background-repeat: no-repeat;
-    background-size: 70px 70px;
-    background-position: center;
-}
-
-.diagram {
-    background-color: #F5F4FA;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    background-image: url(../img/icons.svg/diagram.svg);
-    background-repeat: no-repeat;
-    background-size: 70px 70px;
-    background-position: center;
-}
-
-.astronaut {
-    background-color: #F5F4FA;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    background-image: url(../img/icons.svg/astronaut.svg);
-    background-repeat: no-repeat;
-    background-size: 70px 70px;
-    background-position: center;
+.list-icons {
+    width: 70px;
+    height: 70px;
+    margin: 25px 100px;
 }
 
 .list-h {
@@ -264,6 +232,7 @@ ul {
     letter-spacing: 0.03em;
     width: 270px;
     margin: 0;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -344,74 +313,33 @@ img {
     padding-right: 32px;
 }
 
-.insta {
+.network>li {
     width: 44px;
     height: 44px;
-    margin-right: 10px;
-    background-color: var(--title-text-color);
     border-radius: 50%;
-    background-image: url(../img/icons.svg/instagram.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
+    margin-right: 10px;
 }
 
-.insta:hover, 
-.insta:focus {
+.network>li:hover,
+.network>li:focus {
+    background-color: var(--accent-color);
+}
+
+.network>li:last-child {
+    margin-right: 0px;
+}
+
+
+.network-svg {
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    fill: var(--primary-icon-color);
+}
+
+.network-svg:hover,
+.network-svg:focus {
     fill: var(--title-text-color);
-}
-
-.twitter {
-    width: 44px;
-    height: 44px;
-    margin-right: 10px;
-    background-color: var(--title-text-color);
-    border-radius: 50%;
-    background-image: url(../img/icons.svg/twitter.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-}
-
-.twitter:hover, 
-.twitter:focus {
-    background-color: var(--accent-color);
-    stroke: var(--title-text-color);
-}
-
-.facebook {
-    width: 44px;
-    height: 44px;
-    margin-right: 10px;
-    background-color: var(--title-text-color);
-    border-radius: 50%;
-    background-image: url(../img/icons.svg/facebook.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-}
-
-.facebook:hover, 
-.facebook:focus {
-    background-color: var(--accent-color);
-    stroke: var(--title-text-color);
-}
-
-.linkedin {
-    width: 44px;
-    height: 44px;
-    background-color: var(--title-text-color);
-    border-radius: 50%;
-    background-image: url(../img/icons.svg/linkedin.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-}
-
-.linkedin:hover, 
-.linkedin:focus {
-    background-color: var(--accent-color);
-    stroke: var(--title-text-color);
 }
 
 .card {
@@ -438,8 +366,35 @@ img {
     display: flex;
 }
 
+.icons {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--primary-icon-color);
+    border-radius: 4px;
+    margin-right: 30px;
+}
+
+.icons:last-child {
+    margin-right: 0px;
+}
+
+.icons:hover,
+.icons:focus {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+.svg-companies {
+    width: 106px;
+    height: 60px;
+    fill: var(--primary-icon-color);
+    margin: 16px 32px;
+}
+
+
 
 /* footer */
+
 
 .footer {
     background-color: var(--pimary-gray-color);
