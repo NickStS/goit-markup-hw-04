@@ -9,6 +9,7 @@
     --primary-seventy-color: #757575;
     --primary-hr-color: #ECECEC;
     --primary-icon-color: #AFB1B8;
+    --primary-footer-color: rgba(255, 255, 255, 0.1);
 }
 
 
@@ -413,6 +414,11 @@ img {
     margin: 16px 32px;
 }
 
+.svg-companies:hover,
+.svg-companies:focus {
+    fill: var(--accent-color);
+}
+
 
 
 /* footer */
@@ -507,6 +513,7 @@ img {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    background: var(--primary-footer-color);
     margin-right: 10px;
 }
 
