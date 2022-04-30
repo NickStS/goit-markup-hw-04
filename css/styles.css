@@ -408,10 +408,10 @@ img {
 }
 
 .svg-companies {
-    width: 106px;
-    height: 60px;
+    width: 170px;
+    height: 92px;
     fill: var(--primary-icon-color);
-    margin: 16px 32px;
+    padding: 16px 32px;
 }
 
 .svg-companies:hover,
