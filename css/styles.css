@@ -37,6 +37,18 @@ body {
     padding-right: 15px;
 }
 
+.head {
+    display: flex;
+}
+
+.head>li {
+    margin-right: auto;
+}
+
+.head>li:last-child {
+    margin: 0;
+}
+
 .nav {
     display: flex;
 }
@@ -127,6 +139,16 @@ ul {
 .cont:hover,
 .cont:focus{
     color: var(--accent-color);
+}
+
+.head-svg {
+    width: 16px;
+    height: 12px;
+}
+
+.head-svg-one {
+    width: 10px;
+    height: 16px;
 }
 
 .hr {
@@ -450,6 +472,64 @@ img {
     font-style: normal;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.footer-ul {
+    display: flex;
+}
+
+.footer-ul>li {
+    margin-right: 70px;
+}
+
+.footer-ul>li:last-child {
+    margin: 0;
+}
+
+.join {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    margin-bottom: 20px;
+
+}
+
+.network-footer {
+    display: flex;
+}
+
+.network-footer>li {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.network-footer>li:hover,
+.network-footer>li:focus {
+    background-color: var(--accent-color);
+}
+
+.network-footer>li:last-child {
+    margin-right: 0px;
+}
+
+
+.network-svg {
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    fill: var(--primary-icon-color);
+}
+
+.network-svg:hover,
+.network-svg:focus {
+    fill: var(--title-text-color);
 }
 
 
