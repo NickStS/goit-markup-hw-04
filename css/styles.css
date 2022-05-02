@@ -547,11 +547,6 @@ img {
     fill: var(--title-text-color);
 }
 
-.network-sf:hover,
-.network-sf:focus {
-    fill: var(--title-text-color);
-}
-
 
 
 /* page 2 (portfolio) */
