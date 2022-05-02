@@ -147,6 +147,7 @@ ul {
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
+    fill: var(--primary-seventy-color);
 }
 
 .cont:hover,
