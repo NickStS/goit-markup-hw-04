@@ -547,8 +547,8 @@ img {
     fill: var(--title-text-color);
 }
 
-.network-svg:hover,
-.network-svg:focus {
+.network-sf:hover,
+.network-sf:focus {
     fill: var(--title-text-color);
 }
 
