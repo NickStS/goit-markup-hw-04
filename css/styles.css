@@ -544,7 +544,7 @@ img {
     width: 44px;
     height: 44px;
     padding: 12px;
-    fill: var(--primary-icon-color);
+    fill: var(--title-text-color);
 }
 
 .network-svg:hover,
